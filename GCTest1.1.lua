@@ -62,9 +62,7 @@ Pirates()
 Tab1:Toggle("เก็บกล่อง",false, function(vu)
 Grab_Chest = vu
 T_P_H = vu
-_G.click = vu
 AutoEquiped = vu
-_G.WalkWater = vu
 end)
 
 spawn(function()
