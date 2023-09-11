@@ -139,7 +139,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 	Name.Size = UDim2.new(0, 61, 0, 27)
 	Name.Font = Enum.Font.GothamSemibold
 	Name.Text = hubname
-	Name.TextColor3 = Color3.fromRGB(147,112,219)
+	Name.TextColor3 = Color3.fromRGB(0,255,255)
 	Name.TextSize = 17.000
 
 	local Hub = Instance.new("TextLabel")
@@ -262,7 +262,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
         TabButton.BorderSizePixel = 3
 		TabButton.Size = UDim2.new(0, 130, 0, 23)
 		TabButton.Font = Enum.Font.GothamSemibold
-		TabButton.TextColor3 = Color3.fromRGB(225, 225, 225)
+		TabButton.TextColor3 = Color3.fromRGB(51, 225, 51)
 		TabButton.TextSize = 15.000
 		TabButton.TextTransparency = 0.500
 
@@ -362,7 +362,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 			TextBtn.AutoButtonColor = false
 			TextBtn.Font = Enum.Font.GothamSemibold
 			TextBtn.Text = text
-			TextBtn.TextColor3 = Color3.fromRGB(225, 225, 225)
+			TextBtn.TextColor3 = Color3.fromRGB(102, 225, 102)
 			TextBtn.TextSize = 15.000
 			
 			UICorner_2.CornerRadius = UDim.new(0, 5)
@@ -999,7 +999,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 			Sep2.Size = UDim2.new(0, 100, 0, 20)
 			Sep2.Font = Enum.Font.GothamSemibold
 			Sep2.Text = text
-			Sep2.TextColor3 = Color3.fromRGB(255, 0, 0)
+			Sep2.TextColor3 = Color3.fromRGB(153, 0, 153)
 			Sep2.TextSize = 14.000
 			
 			Sep3.Name = "Sep3"
