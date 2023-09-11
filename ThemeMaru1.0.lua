@@ -556,7 +556,7 @@ local ui =  game:GetService("CoreGui"):FindFirstChild("redui") if ui then ui:Des
 				local Toggle = Instance.new("Frame")
 
 				Toggle.Parent = ScrollingFrame_Pageframe
-				Toggle.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+				Toggle.BackgroundColor3 = Color3.fromRGB(240, 255, 255)
 				Toggle.BorderSizePixel = 0
 				Toggle.Position = UDim2.new(0.5, 0, 0.5, 0)
 				Toggle.Size = UDim2.new(0, 213, 0, 35)
