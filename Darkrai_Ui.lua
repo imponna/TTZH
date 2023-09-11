@@ -446,7 +446,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 			Label.Size = UDim2.new(0, 468, 0, 29)
 			Label.Font = Enum.Font.GothamSemibold
 			Label.Text = text
-			Label.TextColor3 = Color3.fromRGB(225, 225, 225)
+			Label.TextColor3 = Color3.fromRGB(0, 225, 0)
 			Label.TextSize = 15.000
 
 			ToggleImage.Name = "ToggleImage"
