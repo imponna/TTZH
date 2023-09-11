@@ -151,7 +151,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 	Hub.Size = UDim2.new(0, 81, 0, 27)
 	Hub.Font = Enum.Font.GothamSemibold
 	Hub.Text = "  | "..gamename
-	Hub.TextColor3 = Color3.fromRGB(147,112,219)
+	Hub.TextColor3 = Color3.fromRGB(255,0,0)
 	Hub.TextSize = 17.000
 	Hub.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -182,7 +182,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 	ScrollTab.Name = "ScrollTab"
 	ScrollTab.Parent = Tab
 	ScrollTab.Active = true
-	ScrollTab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	ScrollTab.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
 	ScrollTab.BackgroundTransparency = 1.000
 	ScrollTab.Size = UDim2.new(0, 150, 0, 365)
 	ScrollTab.CanvasSize = UDim2.new(0, 0, 0, 0)
@@ -957,7 +957,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 			Label.BackgroundTransparency = 1.000
 			Label.Size = UDim2.new(0, 470, 0, 20)
 			Label.Font = Enum.Font.GothamSemibold
-			Label.TextColor3 = Color3.fromRGB(225, 225, 225)
+			Label.TextColor3 = Color3.fromRGB(255, 0, 0)
 			Label.TextSize = 16.000
 			Label.Text = text
 			Label.TextXAlignment = Enum.TextXAlignment.Left
@@ -986,7 +986,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 			
 			Sep1.Name = "Sep1"
 			Sep1.Parent = Seperator
-			Sep1.BackgroundColor3 = _G.Color
+			Sep1.BackgroundColor3 = Color3.fromRGB(0,255,255)
 			Sep1.BorderSizePixel = 0
 			Sep1.Position = UDim2.new(0, 0, 0, 10)
 			Sep1.Size = UDim2.new(0, 80, 0, 1)
@@ -999,12 +999,12 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 			Sep2.Size = UDim2.new(0, 100, 0, 20)
 			Sep2.Font = Enum.Font.GothamSemibold
 			Sep2.Text = text
-			Sep2.TextColor3 = Color3.fromRGB(255, 255, 255)
+			Sep2.TextColor3 = Color3.fromRGB(255, 0, 0)
 			Sep2.TextSize = 14.000
 			
 			Sep3.Name = "Sep3"
 			Sep3.Parent = Seperator
-			Sep3.BackgroundColor3 = _G.Color
+			Sep3.BackgroundColor3 = Color3.fromRGB(0,255,255)
 			Sep3.BorderSizePixel = 0
 			Sep3.Position = UDim2.new(0, 390, 0, 10)
 			Sep3.Size = UDim2.new(0, 80, 0, 1)
@@ -1023,7 +1023,7 @@ function DarkraiX:Window(text,gamenme,logo,keybind)
 			
 			Line.Name = "Line"
 			Line.Parent = Linee
-			Line.BackgroundColor3 = _G.Color
+			Line.BackgroundColor3 = Color3.fromRGB(255,128,0)
 			Line.BorderSizePixel = 0
 			Line.Position = UDim2.new(0, 0, 0, 10)
 			Line.Size = UDim2.new(0, 470, 0, 1)
