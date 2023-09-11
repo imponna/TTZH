@@ -513,7 +513,7 @@ local ui =  game:GetService("CoreGui"):FindFirstChild("redui") if ui then ui:Des
 
 				ScrollingFrame_Pageframe.Parent = Pageframe
 				ScrollingFrame_Pageframe.Active = true
-				ScrollingFrame_Pageframe.BackgroundColor3 = Color3.fromRGB(240, 255, 255)
+				ScrollingFrame_Pageframe.BackgroundColor3 = Color3.fromRGB(64, 64, 64)
 				ScrollingFrame_Pageframe.BorderSizePixel = 0
 				ScrollingFrame_Pageframe.Position = UDim2.new(0, 0, -0.0101253344, 0)
 				ScrollingFrame_Pageframe.Size = UDim2.new(0, 240, 0, 379)
@@ -556,7 +556,7 @@ local ui =  game:GetService("CoreGui"):FindFirstChild("redui") if ui then ui:Des
 				local Toggle = Instance.new("Frame")
 
 				Toggle.Parent = ScrollingFrame_Pageframe
-				Toggle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+				Toggle.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
 				Toggle.BorderSizePixel = 0
 				Toggle.Position = UDim2.new(0.5, 0, 0.5, 0)
 				Toggle.Size = UDim2.new(0, 213, 0, 35)
@@ -567,7 +567,7 @@ local ui =  game:GetService("CoreGui"):FindFirstChild("redui") if ui then ui:Des
 
 				TextButton_Toggle.Parent = Toggle
 				TextButton_Toggle.BackgroundTransparency =1
-				TextButton_Toggle.BackgroundColor3 = Color3.fromRGB(240, 255, 255)
+				TextButton_Toggle.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
 				TextButton_Toggle.BorderSizePixel = 0
 				TextButton_Toggle.Size = UDim2.new(0, 213, 0, 35)
 				TextButton_Toggle.AutoButtonColor = false
@@ -579,7 +579,7 @@ local ui =  game:GetService("CoreGui"):FindFirstChild("redui") if ui then ui:Des
 				local TextButton_2_Toggle = Instance.new("TextButton")
 
 				TextButton_2_Toggle.Parent = TextButton_Toggle
-				TextButton_2_Toggle.BackgroundColor3 = Color3.fromRGB(240, 255, 255)
+				TextButton_2_Toggle.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
 		--        TextButton_2_Toggle.BorderColor3 = Color3.fromRGB(240, 255, 255)
 				TextButton_2_Toggle.BorderSizePixel = 0
 				TextButton_2_Toggle.AnchorPoint = Vector2.new(0.5, 0.5)
